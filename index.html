@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Video Game Trivia</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Gruppo|Open+Sans" rel="stylesheet">
+</head>
+<body>
+
+<div id="container">
+	<h1>Video Game Trivia</h1>
+
+	<button id="start-button" class="startButton btn btn-primary">Start</button>
+
+	<div id="countdown"><h2>Time Remaining: </h2></div>
+
+	<div id="question-box"></div>
+
+	<div id="answer-box">
+		<div class="list-group choices">
+				<a id="a" class="list-group-item"></a>
+				<a id="b" class="list-group-item"></a>
+				<a id="c" class="list-group-item"></a>
+				<a id="d" class="list-group-item"></a>
+			</div>
+	</div>
+
+	<div id="results-box">
+		<div id="correct"></div>
+		<div id="incorrect"></div>
+		<div id="unanswered"></div>
+		<div id="play-again" class="startButton btn btn-primary">Play Again?</div>
+	</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js">
+	
+</script>
+
+</body>
+</html>
